@@ -1,0 +1,74 @@
+/* navBar */
+.headerBlock {
+    border: solid 5px black;
+}
+.navbar {
+    background-color: #111111;
+    color: rgb(255, 0, 0);
+    flex-wrap: nowrap;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")
+}
+.navbar-brand {
+    flex-shrink: 1; 
+}
+.navButton {
+    border: solid 5px rgb(255, 225, 0);
+}
+.lolButton {
+    flex-shrink: 1;
+    margin-right: auto;
+}
+.navbar-toggler {
+    flex-shrink: 2;
+    
+}
+.navbar-toggler-icon {
+}
+#imgLol {
+    height: 100%; 
+    width: 100%;
+}
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+#navbarNav {
+    width: auto;
+}
+#navbarContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+#navText {
+    color: white;
+}
+
+
+/* Video */
+.videoblock {
+    border: solid 5px rgb(136, 255, 0);
+}
+.videoBlurred {
+    border: solid 5px rgb(0, 255, 200);
+}
+.videoNormal {
+    border: solid 5px rgb(0, 68, 255);
+}
+
+/* Post */
+.postBlock {
+    border: solid 5px rgb(230, 0, 255);
+}
+.post {
+    border: solid 5px rgb(0, 0, 0)
+}
+.leagueOfLegendsButtonNavBar {
+    border: solid red; 
+    width: 56.36px; 
+    height: 36.56px;
+    
+}
+.navbar-brand {
+    margin-right: 0px;
+    padding: 5px 5px;
+}
